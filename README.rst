@@ -2,6 +2,8 @@
 Python Logging Examples
 =================================
 
-1. Basic Logging Example here_.
+1. `Basic Logging
+   <https://github.com/anukalpdesai/logging_examples/tree/master/basic>`_.
 
-   .. _here: https://github.com/anukalpdesai/logging_examples/tree/master/basic
+2. `Logging from Multiple Modules
+   <https://github.com/anukalpdesai/logging_examples/tree/master/multiple\_modules>`_.
