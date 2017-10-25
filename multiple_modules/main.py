@@ -7,15 +7,10 @@ import time
 
 from worker import worker
 
-try:
-    os.environ['MY_LOGGING_LEVEL']
-except:
-    level = logging.INFO
-else:
-    level = logging.DEBUG
+level = os.environ.get('MY_LOG_LEVEL', 'INFO').upper()
 
 logging.basicConfig(level=level,
-                    format='[%(levelname)s]'
+                    format='[%(levelname)s] '
                     '%(threadName)-15s %(message)s')
 
 
